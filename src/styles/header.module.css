@@ -1,0 +1,24 @@
+.header{
+  height: 65px;
+  width:100%;
+  background: linear-gradient(180deg, #240B10 0%, #101010 100%);
+  color:white;
+  display: flex;
+}
+
+.headerLogo{
+  align-self: center;
+}
+
+.header img{
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
+.headerLogo span{
+  font-weight: bold;
+  font-family: Lato;
+  font-size: 24px;
+  margin-left: 10px;
+  vertical-align: middle;
+}

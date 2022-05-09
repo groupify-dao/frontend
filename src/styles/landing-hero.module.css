@@ -1,0 +1,67 @@
+.landinghero .image
+{
+    position: relative;
+    width: 100%;
+    background: url('../assets/img/visual.png') no-repeat right;
+    background-size: cover;
+    height: 50vh;
+}
+
+.image::before{
+    content: "";
+    background: linear-gradient(270deg, rgba(16, 16, 16, 0) 42.4%, #101010 96.7%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.landinghero{
+    background : linear-gradient(0deg, #101010, #101010), #171717;
+    max-height: 50vh;
+}
+
+.intro{
+    padding: 3.75em 2.5em;
+}
+
+.intro h3{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 900;
+    color: #B05134;
+
+}
+
+.intro h1{
+    font-family: Lato;
+font-size: 40px;
+font-weight: 700;
+color: #EEF1F5;
+
+}
+
+.intro p{
+    font-family: Lato;
+font-size: 16px;
+font-weight: 500;
+color: #EEF1F5;
+margin-top: 2.75em;
+opacity: 0.8;
+}
+
+.button{
+    border: 2px solid transparent;
+    border-image-source: linear-gradient(98deg, #40AED0 0%, #A7E7CD 100%);
+    border-image-slice:2;
+    color:#ABE9CD;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    display: inline-block;
+    padding: .75em 1.25em;
+    border-radius: 10px;
+    cursor:pointer;
+}

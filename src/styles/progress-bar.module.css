@@ -1,0 +1,21 @@
+.progressBar{
+    position: relative;
+}
+
+.track{
+    border-radius: 10px;
+    width: 100%;
+    background: #41464D;
+    position: relative;
+    z-index: 1;
+    height:10px;
+}
+
+.progress{
+    border-radius: 10px;
+    background: linear-gradient(90.06deg, #3EADCF 0%, #ABE9CD 99.34%);
+    position: absolute;
+    top:0;
+    z-index: 2;
+    height:10px;
+}

@@ -1,0 +1,86 @@
+.groups
+{
+    background: #171717;
+    min-height: 50vh;
+    color:white;
+}
+
+.heading{
+font-family: Lato;
+font-size: 1.25em;
+font-weight: 900;
+margin : 1.25em 0;
+}
+
+.group{
+    border-radius: 10px; 
+    overflow: hidden;
+    padding:1em;
+    position: relative;
+    cursor: pointer;
+    background: #262626;
+}
+
+.group:hover{
+    border:3px solid #A7E7CD;
+    
+}
+
+.ImageContainer{
+    position:relative
+}
+
+.collectionbanner{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+    height:100px;
+}
+
+
+.centerImage{
+    border-radius: 50%;
+    border: 10px solid #262626;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #262626;
+}
+
+.groupName{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 3.75em;
+}
+
+.indicators{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75em;
+   
+}
+
+
+.indicators p{
+    font-family: Lato;
+    font-size: 0.75em;
+    font-weight: 900;
+    margin: 0;
+    display: inline;
+
+}
+.indicators img{
+    height: 1.2em;
+    margin: 0 5px;
+}
+
